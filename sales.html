@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cookie Stand</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  
+  <link href="https://fonts.googleapis.com/css?family=Anton|Modak&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div  id="content-area">
+    <!-- content goes here -->
+    <header>
+      <h1>Shops Sale Details</h1>
+    </header>
+    </div>
+
+  <div class="formTitle"><h2>Add a Shop</h2></div>
+      
+
+      <form id="addShopForm">
+        <fieldset>
+          <legend>Basic Shop Information</legend>
+          <label>Location: </label>
+          <input type="text" name="location" required>
+          <label>Minimum Customers Number: </label>
+          <input type="number" name="minimum" >
+          <label>Maximum Customer Numbers: </label>
+          <input type="number" name="maximum">
+          <label>Avarage sales: </label>
+          <input type="number" step="0.1" name="avarage">
+        </fieldset>
+
+        <button type="submit">Submit</button>
+
+
+      </form>
+
+    
+ 
+  <script src="js/app.js"></script>
+</body>
+
+</html>
